@@ -23,20 +23,29 @@ This project sets up a MySQL database with phpMyAdmin using Docker Compose. It's
 
 1. Clone this repository:
    git clone https://github.com/heinthant/docker-mysql-phpmyadmin.git
+   
    cd docker-mysql-phpmyadmin
+   
 Start the containers:
 
 docker-compose up -d
+
 Access phpMyAdmin at:http://localhost:8080
 
 🔐 Default Credentials
 
 Property	Value
+
 MySQL Root User	root
+
 MySQL Root Password	rootpassword
+
 MySQL User	user
+
 MySQL User Password	userpassword
+
 MySQL Database	mydb
+
 You can change these in the docker-compose.yml file as needed.
 
 🗃️ Data Persistence
