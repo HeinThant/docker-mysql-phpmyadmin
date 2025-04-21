@@ -57,11 +57,15 @@ Data will persist between container restarts.
 To stop and remove the containers:
 
 docker-compose down
+
 🧼 Remove All Data (Optional)
+
 If you want to delete the MySQL data volume too:
 
 docker-compose down -v
+
 🧠 Notes
+
 Make sure Docker Desktop is running and you're using Linux containers.
 
 You can modify or extend this setup by adding PHP, Apache, or other services as needed.
