@@ -16,6 +16,7 @@ This project sets up a MySQL database with phpMyAdmin using Docker Compose. It's
 ## 📁 Folder Structure
 
 . ├── docker-compose.yml 
+
   └── README.md
 
 ## ⚙️ Setup
